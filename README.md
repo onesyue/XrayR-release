@@ -8,14 +8,7 @@ A Xray backend framework that can easily support many panels.
 [教程](https://crackair.gitbook.io/xrayr-project/)
 
 ```
-# Docker 安装
-
-```
-docker pull crackair/xrayr:latest && docker run --restart=always --name xrayr -d -v ${PATH_TO_CONFIG}/config.yml:/etc/XrayR/config.yml --network=host crackair/xrayr:latest
-```
-
-# Docker compose 安装
-0. 安装docker-compose: 
+# Docker 安装 && Docker compose 安装
 ```
 curl -fsSL https://get.docker.com | bash -s docker
 curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
