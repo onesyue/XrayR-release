@@ -10,9 +10,9 @@ A Xray backend framework that can easily support many panels.
 ```
 # Docker 安装 && Docker compose 安装
 ```
-curl -fsSL https://get.docker.com | bash -s docker
-curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-chmod +x /usr/local/bin/docker-compose
+#curl -fsSL https://get.docker.com | bash -s docker
+#curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+#chmod +x /usr/local/bin/docker-compose
 ```
 1. `git clone https://github.com/onesyue/XrayR-release`
 2. `cd XrayR-release`
