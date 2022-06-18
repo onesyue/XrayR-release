@@ -15,4 +15,3 @@ A Xray backend framework that can easily support many panels.
 3. 编辑config。
 配置文件基本格式如下，Nodes下可以同时添加多个面板，多个节点配置信息，只需添加相同格式的Nodes item即可。
 4. 启动docker：`docker-compose up -d`
-```
