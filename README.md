@@ -37,5 +37,6 @@ chmod +x /usr/local/bin/docker-compose
 在docker-compose.yml目录下执行：
 ```
 docker-compose pull
+```
 docker-compose up -d
 ```
